@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context=".AddPatientActivity">
+
+        <!-- Input fields for Patient -->
+        <EditText
+            android:id="@+id/patientFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Patient First Name"
+            android:minHeight="48dp"
+            android:padding="8dp"/>
+
+        <EditText
+            android:id="@+id/patientLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Patient Last Name"
+            android:minHeight="48dp"
+            android:padding="8dp"/>
+
+
+        <TextView
+            android:id="@+id/diaryDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Diary Date"
+            android:textSize="16sp" />
+
+        <!-- Input fields for DiaryEntry -->
+        <EditText
+            android:id="@+id/diaryContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Diary Content"
+            android:minHeight="48dp"
+            android:padding="8dp"/>
+
+
+        <Button
+            android:id="@+id/addDataButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:text="Add Data" />
+
+    </LinearLayout>
+</ScrollView>

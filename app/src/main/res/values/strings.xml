@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Project 13 Application</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="diary_date">Diary Date: %1$s</string>
+    <string name="id">ID</string>
+    <string name="fullname">Fullname</string>
+    <string name="view_detail">View Detail</string>
+    <string-array name="subscriber_types">
+        <item>Family Member</item>
+        <item>Caregiver</item>
+    </string-array>
+
+</resources>
